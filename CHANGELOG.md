@@ -7,11 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-03-23
+
+### Added
+
+- Support simultaneous connections from Studio and SDK to the same device
+
+### Fixed
+
+- Fixed 3D panel crash when enabling the Statistics toggle on macOS/Linux
+- Fixed firmware upgrade step indicator still clickable after completion
+- Fixed view switching not locked during firmware upgrade
+
 ## [0.7.0] - 2026-03-09
 
 ### Added
 
 - MCAP recording: one-click start/stop recording with auto channel discovery, real-time quality monitoring (frame drop rate, sync offset), episode management and file explorer integration
+- **Wuji Glove**: Hand model mesh overlay in 3D panel, supporting mesh visibility, opacity, wireframe mode, and color settings
 - Layout preset system: save, switch, rename, delete, import/export panel layout presets with built-in defaults and tab bar shortcuts (Alt+1..9)
 - Choose a custom device name when connecting for the first time
 - Device rename now properly updates all data stream paths
@@ -74,7 +87,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v0.7.0...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v0.8.0...HEAD
+[0.8.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.7.0...v0.8.0
 [0.7.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.5.0...v0.6.0
 [0.5.0]: https://github.com/wuji-technology/wuji-studio/releases/tag/v0.5.0
