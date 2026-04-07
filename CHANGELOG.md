@@ -7,14 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.9.0] - 2026-04-07
+
+### Added
+
+- Built-in diagnostics for crash recovery and troubleshooting
+
+### Fixed
+
+- Fixed layout preset switching losing or overwriting panel configurations from other presets
+- Fixed white screen after lock-screen wake on Linux
+- Fixed UI freeze during long-running high-frequency visualizations on Linux
+
 ## [0.8.0] - 2026-03-23
 
 ### Added
 
 - Support simultaneous connections from Studio and SDK to the same device
 
+### Changed
+
+- Removed maximum connected devices limit (previously capped at 2)
+
 ### Fixed
 
+- Fixed device connection state lost when switching views
+- Fixed device count showing incorrect number after connecting (e.g., connecting 1 device but showing 2)
 - Fixed 3D panel crash when enabling the Statistics toggle on macOS/Linux
 - Fixed firmware upgrade step indicator still clickable after completion
 - Fixed view switching not locked during firmware upgrade
@@ -87,7 +105,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v0.8.0...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v0.9.0...HEAD
+[0.9.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.8.0...v0.9.0
 [0.8.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.7.0...v0.8.0
 [0.7.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.5.0...v0.6.0
