@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [0.10.0] - 2026-04-27
+
+### Added
+
+- Auto-checks for Studio and device firmware updates, surfacing new versions in a toast and the notification center, with one-click navigation to the download page or upgrade view
+
 ## [0.9.0] - 2026-04-07
 
 ### Added
@@ -105,7 +111,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v0.9.0...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v0.10.0...HEAD
+[0.10.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.9.0...v0.10.0
 [0.9.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.8.0...v0.9.0
 [0.8.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.7.0...v0.8.0
 [0.7.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.6.0...v0.7.0
