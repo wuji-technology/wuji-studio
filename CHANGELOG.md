@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [2026.5.18]
+
+### Added
+
+- Added the Extensions view with separate Development, Installed, and Built-in sections, including local extension loading, directory scanning, install/uninstall actions, and clearer override warnings.
+- Added preinstalled first-party extensions for calibration, teleoperation, and device tools so packaged Studio builds can include these capabilities out of the box.
+- Added extension-provided welcome content and view title actions, so extension views can show empty-state guidance and toolbar commands consistently.
+
+### Changed
+
+- Improved the Extensions page with clearer extension status, source labels, details, manifest viewing, and source-specific actions.
+- Improved extension support so plugins integrate more reliably with the visualization view.
+
+### Fixed
+
+- Fixed layout presets, saved layouts, and user preferences being blank after a fresh install on Linux (caused by the WebView data directory not being created before first use)
+- Fixed URDF local file loading failing on Windows in the 3D panel
+- Fixed URDF meshes not tracking `/joint_states` in real time (mesh stayed in bind pose)
+
 ## [0.10.0] - 2026-04-27
 
 ### Added
@@ -111,7 +130,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v0.10.0...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.5.18...HEAD
+[2026.5.18]: https://github.com/wuji-technology/wuji-studio/compare/v0.10.0...v2026.5.18
 [0.10.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.9.0...v0.10.0
 [0.9.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.8.0...v0.9.0
 [0.8.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.7.0...v0.8.0
