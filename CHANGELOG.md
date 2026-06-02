@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [2026.6.2] - 2026-06-02
+
+### Added
+
+- Added local MCAP replay so recorded `.mcap` files open and play back directly in Studio.
+
+### Changed
+
+- Matrix panel: "Flip Horizontal / Flip Vertical" now mirror cell data only; row and column header indices stay in natural order, keeping alignment with the physical sensor layout.
+- Visualization now loads built-in and extension panels through a single unified path.
+- Improved recording and replay workflows, including episode handling and playback controls.
+- Improved extension support with broader data access, custom views, and permission settings.
+
+### Fixed
+
+- Fixed native video preview and replay stability issues.
+
 ## [2026.5.18]
 
 ### Added
@@ -130,7 +147,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.5.18...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.2...HEAD
+[2026.6.2]: https://github.com/wuji-technology/wuji-studio/compare/v2026.5.18...v2026.6.2
 [2026.5.18]: https://github.com/wuji-technology/wuji-studio/compare/v0.10.0...v2026.5.18
 [0.10.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.9.0...v0.10.0
 [0.9.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.8.0...v0.9.0
