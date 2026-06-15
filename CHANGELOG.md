@@ -7,7 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
-## [2026.6.2] - 2026-06-02
+## [2026.6.15]
+
+### Added
+
+- Added **Modify Device Port** command in Device Tools to change a connected device's UDP data port from the device menu or command palette. The device reboots to apply.
+- Added `wujistudio.recording` extension API so authorized extensions can start, inspect, and stop Studio-managed recordings with optional source or topic selection.
+- Added Hand Skeleton profile switching in the 3D panel between **wujihand**, **wujihand2**, and **Custom URDF**. Selecting Custom URDF lets you enter a local URDF path for SDK-side IK solving. Switching back to wujihand or wujihand2 clears the custom override.
+- Added a current-device debug recording at calibration start for later troubleshooting.
+
+### Changed
+
+- Restricted **Modify Device IP** in Device Tools to private (RFC1918) subnets (`10/8`, `172.16/12`, `192.168/16`). Public, loopback, link-local, and other reserved addresses are now rejected.
+- Updated `wujistudio.devices.subscribeTopic(...)` to require the `robotics.topics.read` permission. Extensions that subscribe to device topics must add `"robotics.topics.read"` to `wujistudio.extension.json` under `permissions`.
+- Updated the bundled device SDK integration for user-scoped calibration and SDK-managed hand profile selection.
+
+### Fixed
+
+- Fixed point cloud colors in the 3D panel appearing scrambled and washed-out or semi-transparent. Point cloud coloring now renders correctly and matches the selected color map.
+- Fixed device logs not resuming after the device passively reconnects (for example, after a firmware-upgrade restart).
+
+## [2026.6.2]
 
 ### Added
 
@@ -147,7 +167,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.2...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.15...HEAD
+[2026.6.15]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.2...v2026.6.15
 [2026.6.2]: https://github.com/wuji-technology/wuji-studio/compare/v2026.5.18...v2026.6.2
 [2026.5.18]: https://github.com/wuji-technology/wuji-studio/compare/v0.10.0...v2026.5.18
 [0.10.0]: https://github.com/wuji-technology/wuji-studio/compare/v0.9.0...v0.10.0
