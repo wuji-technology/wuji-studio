@@ -27,7 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Fixed point cloud colors in the 3D panel appearing scrambled and washed-out or semi-transparent. Point cloud coloring now renders correctly and matches the selected color map.
 - Fixed device logs not resuming after the device passively reconnects (for example, after a firmware-upgrade restart).
 
-## [2026.6.2] - 2026-06-02
+## [2026.6.2]
 
 ### Added
 
