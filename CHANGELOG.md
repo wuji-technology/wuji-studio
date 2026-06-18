@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [2026.6.18]
+
+### Changed
+
+- **Wuji Glove**: Updated the tactile matrix and per-zone matrix panels to display the new 24×31 (744) layout (was 24×32, 768).
+- **Wuji Glove**: MCAP playback now rejects legacy 24×32 (768) or corrupted tactile recordings at decode time and shows a warning, instead of rendering them at the wrong dimensions.
+
 ## [2026.6.15]
 
 ### Added
@@ -27,7 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Fixed point cloud colors in the 3D panel appearing scrambled and washed-out or semi-transparent. Point cloud coloring now renders correctly and matches the selected color map.
 - Fixed device logs not resuming after the device passively reconnects (for example, after a firmware-upgrade restart).
 
-## [2026.6.2]
+## [2026.6.2] - 2026-06-02
 
 ### Added
 
@@ -167,7 +174,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.15...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.18...HEAD
+[2026.6.18]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.15...v2026.6.18
 [2026.6.15]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.2...v2026.6.15
 [2026.6.2]: https://github.com/wuji-technology/wuji-studio/compare/v2026.5.18...v2026.6.2
 [2026.5.18]: https://github.com/wuji-technology/wuji-studio/compare/v0.10.0...v2026.5.18
