@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [2026.7.1]
+
+### Changed
+
+- Updated the default Hand Skeleton URDF snapshots used by the bundled device SDK to the latest caliber versions.
+- Restricted calibration to local user profiles — starting calibration as the SDK Default user is no longer allowed.
+
+### Fixed
+
+- Fixed Wuji Hand 2 firmware upgrade getting stuck at 95% during the upgrade reconnect.
+
 ## [2026.6.18]
 
 ### Changed
@@ -174,7 +185,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.18...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.1...HEAD
+[2026.7.1]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.18...v2026.7.1
 [2026.6.18]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.15...v2026.6.18
 [2026.6.15]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.2...v2026.6.15
 [2026.6.2]: https://github.com/wuji-technology/wuji-studio/compare/v2026.5.18...v2026.6.2
