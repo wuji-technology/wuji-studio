@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [2026.7.14]
+
+### Added
+
+- **User data import and export**: Added export and import of user data — calibration hand models, tactile models, and captured runs — as a portable `.zip` from the user avatar menu. Import previews the archive, shows its owner, and warns that it overwrites matching data before you confirm. Data is restored to the archive's owner profile, which is created if it doesn't exist, and you can switch to that profile afterward. Desktop app only.
+
+### Changed
+
+- **Breaking change — Calibration**: Changed the calibration file format. Files created before this release are not compatible and are not migrated — calibrate the left and right hands again after upgrading.
+- Changed where calibration results are saved: each result now belongs to the selected Wuji Studio user and hand, and Wuji Gloves for the same hand share that user's result.
+- Renamed **Hand Profile** to **Hand Model Source**. The legacy Wuji Hand and Wuji Hand 2 profiles are deprecated. Existing layouts now show **SDK Managed**, which uses the matching calibrated model or the SDK default. **Custom URDF** remains available.
+
+### Fixed
+
+- **Calibration**: Fixed cases where a compatible Wuji Glove could appear unsupported or show the wrong calibration status. When the status cannot be checked, Wuji Studio now offers a retry.
+- **Wuji Glove**: Blocked incompatible legacy tactile recordings during playback and added a clear warning, avoiding incorrect tactile rendering.
+- **Tactile alerts**: Moved tactile playback warnings to toast notifications, which stay in notification history so the reason is easy to find.
+- **Wuji Glove**: Fixed tactile matrix panels still rendering the old 24×32 preset layout after an in-place upgrade. The layout now migrates on startup, and custom column counts are preserved.
+- **Firmware upgrade**: Grouped devices in the upgrade view by their actual product type, so Wuji Hand devices no longer appear under the "Wuji Glove" group. Unrecognized devices now appear under a new "Other Devices" group.
+
 ## [2026.7.1]
 
 ### Changed
@@ -185,7 +205,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.1...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.14...HEAD
+[2026.7.14]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.1...v2026.7.14
 [2026.7.1]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.18...v2026.7.1
 [2026.6.18]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.15...v2026.6.18
 [2026.6.15]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.2...v2026.6.15
