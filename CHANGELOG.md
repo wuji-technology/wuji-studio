@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [2026.7.15]
+
+### Fixed
+
+- **Online services**: Restored packaged Studio access to firmware information from Wuji's default API, update checks, and the extension marketplace, without allowing arbitrary network origins.
+
 ## [2026.7.14]
 
 ### Added
@@ -205,7 +211,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.14...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.15...HEAD
+[2026.7.15]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.14...v2026.7.15
 [2026.7.14]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.1...v2026.7.14
 [2026.7.1]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.18...v2026.7.1
 [2026.6.18]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.15...v2026.6.18
