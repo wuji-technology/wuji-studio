@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [2026.7.16]
+
+### Fixed
+
+- Fixed some known issues
+
 ## [2026.7.15]
 
 ### Fixed
@@ -29,7 +35,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 - **Calibration**: Fixed cases where a compatible Wuji Glove could appear unsupported or show the wrong calibration status. When the status cannot be checked, Wuji Studio now offers a retry.
 - **Wuji Glove**: Blocked incompatible legacy tactile recordings during playback and added a clear warning, avoiding incorrect tactile rendering.
-- **Tactile alerts**: Moved tactile playback warnings to toast notifications, which stay in notification history so the reason is easy to find.
+- **Tactile alerts**: Playing back tactile recordings in the older format (before v2026.6.18) shows an incompatibility warning as a message notification in the bottom-right corner.
 - **Wuji Glove**: Fixed tactile matrix panels still rendering the old 24×32 preset layout after an in-place upgrade. The layout now migrates on startup, and custom column counts are preserved.
 - **Firmware upgrade**: Grouped devices in the upgrade view by their actual product type, so Wuji Hand devices no longer appear under the "Wuji Glove" group. Unrecognized devices now appear under a new "Other Devices" group.
 
@@ -211,7 +217,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.15...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.16...HEAD
+[2026.7.16]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.15...v2026.7.16
 [2026.7.15]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.14...v2026.7.15
 [2026.7.14]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.1...v2026.7.14
 [2026.7.1]: https://github.com/wuji-technology/wuji-studio/compare/v2026.6.18...v2026.7.1
