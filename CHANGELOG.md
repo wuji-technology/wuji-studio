@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [2026.8.3]
+
+### Added
+
+- **In-app updates**: Settings > About now shows the current version and installs new releases without leaving Studio. A Version History dialog lets you install a specific version, and update notifications open the in-app update flow directly.
+
+### Fixed
+
+- **Extensions**: Installing an extension from a `.wsix` file no longer strips executable permissions from the files inside it. Extensions that ship their own helper program failed to start after being installed this way. Installing the same extension from a folder was unaffected.
+- **Firmware upgrade**: Fixed successful upgrades occasionally being reported as failed.
+- **Device connection**: Connecting a Wuji Hand 2 no longer falsely reports "read-only mode".
+- Fixed Hand Skeleton visibility in the 3D panel — joints and bones now stay visible when the hand mesh is enabled.
+
 ## [2026.7.16]
 
 ### Fixed
@@ -217,7 +230,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.16...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.8.3...HEAD
+[2026.8.3]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.16...v2026.8.3
 [2026.7.16]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.15...v2026.7.16
 [2026.7.15]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.14...v2026.7.15
 [2026.7.14]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.1...v2026.7.14
