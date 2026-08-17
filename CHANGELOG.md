@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [2026.8.17]
+
+### Fixed
+
+- Fixed device connection issues.
+- Fixed an issue where incorrect firmware appeared in the firmware list during updates.
+
 ## [2026.8.3]
 
 ### Added
@@ -230,7 +237,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.8.3...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.8.17...HEAD
+[2026.8.17]: https://github.com/wuji-technology/wuji-studio/compare/v2026.8.3...v2026.8.17
 [2026.8.3]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.16...v2026.8.3
 [2026.7.16]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.15...v2026.7.16
 [2026.7.15]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.14...v2026.7.15
