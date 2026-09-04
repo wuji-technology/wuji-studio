@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+
+- **Wuji Studio maintenance**: Added a dismissible notice with migration links to Wuji CLI, Wuji SDK, and Wuji Studio documentation.
+
+### Changed
+
+- Firmware upgrades now direct users to Wuji CLI; the maintenance notice reappears after restart.
+
 ## [2026.8.17]
 
 ### Fixed
