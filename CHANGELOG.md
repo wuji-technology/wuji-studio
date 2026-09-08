@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Added
+
+- Wuji Studio is no longer maintained. A dismissible notice at startup provides migration links to the Wuji CLI, Wuji SDK, and Wuji Studio documentation.
+
+### Changed
+
+- Firmware upgrades now direct users to Wuji CLI. The maintenance notice reappears after restart.
+
 ## [2026.8.17]
 
 ### Fixed
