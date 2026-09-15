@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Important notice
+
+- **Wuji Studio is no longer maintained.** Wuji Studio no longer receives feature updates or device support. Use [Wuji CLI](https://docs.wuji.tech/docs/en/wuji-cli/latest/) or [Wuji SDK](https://docs.wuji.tech/docs/en/wuji-sdk/latest/) for device discovery, visualization, calibration, and firmware upgrades. View the [Wuji Studio documentation](https://docs.wuji.tech/docs/en/wuji-studio/latest/).
+
 ## [2026.8.17]
 
 ### Fixed
