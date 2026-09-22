@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+## [2026.9.22]
+
+### Important notice
+
+- Wuji Studio is no longer maintained and no longer receives feature updates or device support. Use Wuji CLI or Wuji SDK for visualization, calibration, and firmware upgrades. See the [Wuji Studio migration guide](https://docs.wuji.tech/docs/en/wuji-studio/latest/migration-to-cli/).
+
 ## [2026.8.17]
 
 ### Fixed
@@ -237,7 +243,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Pre-configured tactile zone layouts
 - Light and dark theme support
 
-[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.8.17...HEAD
+[Unreleased]: https://github.com/wuji-technology/wuji-studio/compare/v2026.9.22...HEAD
+[2026.9.22]: https://github.com/wuji-technology/wuji-studio/compare/v2026.8.17...v2026.9.22
 [2026.8.17]: https://github.com/wuji-technology/wuji-studio/compare/v2026.8.3...v2026.8.17
 [2026.8.3]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.16...v2026.8.3
 [2026.7.16]: https://github.com/wuji-technology/wuji-studio/compare/v2026.7.15...v2026.7.16
